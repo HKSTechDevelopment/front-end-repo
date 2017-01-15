@@ -1,0 +1,19 @@
+[
+ {
+     "country": "China",
+     "gini": 42.16,
+     "year": 2012,
+ }
+
+ {
+     "country": "United States",
+     "gini": 41.06,
+     "year": 2013,
+ }
+
+ {
+     "country": "Ecuador",
+     "gini": 47.29,
+     "year": 2013,
+ }
+]
