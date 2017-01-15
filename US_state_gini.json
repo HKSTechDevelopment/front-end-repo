@@ -1,0 +1,257 @@
+[
+    {
+        "gini": 0.4811,
+        "geography": "Alabama",
+        "margin_of_error": 0.0045
+    },
+    {
+        "gini": 0.4322,
+        "geography": "Alaska",
+        "margin_of_error": 0.0135
+    },
+    {
+        "gini": 0.4702,
+        "geography": "Arizona",
+        "margin_of_error": 0.0043
+    },
+    {
+        "gini": 0.4773,
+        "geography": "Arkansas",
+        "margin_of_error": 0.0062
+    },
+    {
+        "gini": 0.4876,
+        "geography": "California",
+        "margin_of_error": 0.0017
+    },
+    {
+        "gini": 0.458,
+        "geography": "Colorado",
+        "margin_of_error": 0.0045
+    },
+    {
+        "gini": 0.4916,
+        "geography": "Connecticut",
+        "margin_of_error": 0.0043
+    },
+    {
+        "gini": 0.4523,
+        "geography": "Delaware",
+        "margin_of_error": 0.0123
+    },
+    {
+        "gini": 0.5354,
+        "geography": "Washington DC",
+        "margin_of_error": 0.0156
+    },
+    {
+        "gini": 0.4872,
+        "geography": "Florida",
+        "margin_of_error": 0.0027
+    },
+    {
+        "gini": 0.4801,
+        "geography": "Georgia",
+        "margin_of_error": 0.0036
+    },
+    {
+        "gini": 0.4346,
+        "geography": "Hawaii",
+        "margin_of_error": 0.0071
+    },
+    {
+        "gini": 0.4525,
+        "geography": "Idaho",
+        "margin_of_error": 0.0105
+    },
+    {
+        "gini": 0.4817,
+        "geography": "Illinois",
+        "margin_of_error": 0.0026
+    },
+    {
+        "gini": 0.4519,
+        "geography": "Indiana",
+        "margin_of_error": 0.0044
+    },
+    {
+        "gini": 0.4393,
+        "geography": "Iowa",
+        "margin_of_error": 0.0046
+    },
+    {
+        "gini": 0.4596,
+        "geography": "Kansas",
+        "margin_of_error": 0.0074
+    },
+    {
+        "gini": 0.4781,
+        "geography": "Kentucky",
+        "margin_of_error": 0.0053
+    },
+    {
+        "gini": 0.4909,
+        "geography": "Louisiana",
+        "margin_of_error": 0.0045
+    },
+    {
+        "gini": 0.4523,
+        "geography": "Maine",
+        "margin_of_error": 0.0102
+    },
+    {
+        "gini": 0.4524,
+        "geography": "Maryland",
+        "margin_of_error": 0.0036
+    },
+    {
+        "gini": 0.4848,
+        "geography": "Massachusetts",
+        "margin_of_error": 0.0039
+    },
+    {
+        "gini": 0.4667,
+        "geography": "Michigan",
+        "margin_of_error": 0.0029
+    },
+    {
+        "gini": 0.4492,
+        "geography": "Minnesota",
+        "margin_of_error": 0.0035
+    },
+    {
+        "gini": 0.4759,
+        "geography": "Mississippi",
+        "margin_of_error": 0.006
+    },
+    {
+        "gini": 0.4634,
+        "geography": "Missouri",
+        "margin_of_error": 0.0044
+    },
+    {
+        "gini": 0.4623,
+        "geography": "Montana",
+        "margin_of_error": 0.0091
+    },
+    {
+        "gini": 0.4473,
+        "geography": "Nebraska",
+        "margin_of_error": 0.0067
+    },
+    {
+        "gini": 0.4548,
+        "geography": "Nevada",
+        "margin_of_error": 0.0066
+    },
+    {
+        "gini": 0.4347,
+        "geography": "New Hampshire",
+        "margin_of_error": 0.0081
+    },
+    {
+        "gini": 0.4832,
+        "geography": "New Jersey",
+        "margin_of_error": 0.0031
+    },
+    {
+        "gini": 0.4795,
+        "geography": "New Mexico",
+        "margin_of_error": 0.0065
+    },
+    {
+        "gini": 0.5138,
+        "geography": "New York",
+        "margin_of_error": 0.0029
+    },
+    {
+        "gini": 0.4776,
+        "geography": "North Carolina",
+        "margin_of_error": 0.0036
+    },
+    {
+        "gini": 0.4664,
+        "geography": "North Dakota",
+        "margin_of_error": 0.012
+    },
+    {
+        "gini": 0.4637,
+        "geography": "Ohio",
+        "margin_of_error": 0.0034
+    },
+    {
+        "gini": 0.4702,
+        "geography": "Oklahoma",
+        "margin_of_error": 0.0045
+    },
+    {
+        "gini": 0.4622,
+        "geography": "Oregon",
+        "margin_of_error": 0.0046
+    },
+    {
+        "gini": 0.4685,
+        "geography": "Pennsylvania",
+        "margin_of_error": 0.0025
+    },
+    {
+        "gini": 0.4732,
+        "geography": "Rhode Island",
+        "margin_of_error": 0.0094
+    },
+    {
+        "gini": 0.4698,
+        "geography": "South Carolina",
+        "margin_of_error": 0.005
+    },
+    {
+        "gini": 0.4436,
+        "geography": "South Dakota",
+        "margin_of_error": 0.0093
+    },
+    {
+        "gini": 0.4789,
+        "geography": "Tennessee",
+        "margin_of_error": 0.0046
+    },
+    {
+        "gini": 0.4823,
+        "geography": "Texas",
+        "margin_of_error": 0.0021
+    },
+    {
+        "gini": 0.4252,
+        "geography": "Utah",
+        "margin_of_error": 0.0051
+    },
+    {
+        "gini": 0.4452,
+        "geography": "Vermont",
+        "margin_of_error": 0.0102
+    },
+    {
+        "gini": 0.4681,
+        "geography": "Virginia",
+        "margin_of_error": 0.003
+    },
+    {
+        "gini": 0.4561,
+        "geography": "Washington",
+        "margin_of_error": 0.0038
+    },
+    {
+        "gini": 0.4581,
+        "geography": "West Virginia",
+        "margin_of_error": 0.0059
+    },
+    {
+        "gini": 0.441,
+        "geography": "Wisconsin",
+        "margin_of_error": 0.0032
+    },
+    {
+        "gini": 0.4374,
+        "geography": "Wyoming",
+        "margin_of_error": 0.0153
+    }
+]

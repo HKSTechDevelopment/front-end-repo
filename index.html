@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title> Trends in economic development </title>
-</head>
+	<style href="styles.css" rel="stylesheet" type="text/css"></style>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+</head>	
 <body>
 	<h1> Explore trends in economic development </h1>
-	<h2> Explore by region </h2>
-	<p> The primary source of data for our visuals is the <a href="http://data.worldbank.org/data-catalog/world-development-indicators">World Development Indicators</a></p>
+    <h2 id='state'> Roll over to view Gini index for each state </h2>
+
+	<div id="tooltip"></div><!-- div to hold tooltip. -->
+	<svg width="960" height="600" id="statesvg"></svg> <!-- svg to hold the map. -->
+	<script src="uStates.js"></script> <!-- creates uStates. -->
+	
+	<script src="US_state_gini.json"></script>
+	
+	<script src="us-gini.js"></script>
+
+	
 </body>
 </html>

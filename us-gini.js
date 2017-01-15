@@ -1,0 +1,239 @@
+var data = {
+    "AL" : {
+        "gini": 0.4811,
+        "margin_of_error": 0.0045
+    },
+    "AK" : {
+        "gini": 0.4322,
+        "margin_of_error": 0.0135
+    },
+    "AZ" : {
+        "gini": 0.4702,
+        "margin_of_error": 0.0043
+    },
+    "AR" : {
+        "gini": 0.4773,
+        "margin_of_error": 0.0062
+    },
+    "CA" : {
+        "gini": 0.4876,
+        "margin_of_error": 0.0017
+    },
+    "CO" : {
+        "gini": 0.458,
+        "margin_of_error": 0.0045
+    },
+    "CT" : {
+        "gini": 0.4916,
+        "margin_of_error": 0.0043
+    },
+    "DE" : {
+        "gini": 0.4523,
+        "margin_of_error": 0.0123
+    },
+    "DC" : {
+        "gini": 0.5354,
+        "margin_of_error": 0.0156
+    },
+    "FL" : {
+        "gini": 0.4872,
+        "margin_of_error": 0.0027
+    },
+    "GA" : {
+        "gini": 0.4801,
+        "margin_of_error": 0.0036
+    },
+    "HI" : {
+        "gini": 0.4346,
+        "margin_of_error": 0.0071
+    },
+    "ID" : {
+        "gini": 0.4525,
+        "margin_of_error": 0.0105
+    },
+    "IL" : {
+        "gini": 0.4817,
+        "margin_of_error": 0.0026
+    },
+    "IN" : {
+        "gini": 0.4519,
+        "margin_of_error": 0.0044
+    },
+    "IA" : {
+        "gini": 0.4393,
+        "margin_of_error": 0.0046
+    },
+    "KS" : {
+        "gini": 0.4596,
+        "margin_of_error": 0.0074
+    },
+    "KY" : {
+        "gini": 0.4781,
+        "margin_of_error": 0.0053
+    },
+    "LS" : {
+        "gini": 0.4909,
+        "margin_of_error": 0.0045
+    },
+    "ME" : {
+        "gini": 0.4523,
+        "margin_of_error": 0.0102
+    },
+    "MD" : {
+        "gini": 0.4524,
+        "margin_of_error": 0.0036
+    },
+    "MA" : {
+        "gini": 0.4848,
+        "margin_of_error": 0.0039
+    },
+    "MI" : {
+        "gini": 0.4667,
+        "margin_of_error": 0.0029
+    },
+    "MN" : {
+        "gini": 0.4492,
+        "margin_of_error": 0.0035
+    },
+    "MS" : {
+        "gini": 0.4759,
+        "margin_of_error": 0.006
+    },
+    "MO" : {
+        "gini": 0.4634,
+        "margin_of_error": 0.0044
+    },
+    "MT" : {
+        "gini": 0.4623,
+        "margin_of_error": 0.0091
+    },
+    "NE" : {
+        "gini": 0.4473,
+        "margin_of_error": 0.0067
+    },
+    "NV" : {
+        "gini": 0.4548,
+        "margin_of_error": 0.0066
+    },
+    "NH" : {
+        "gini": 0.4347,
+        "margin_of_error": 0.0081
+    },
+    "NJ" : {
+        "gini": 0.4832,
+        "margin_of_error": 0.0031
+    },
+    "NM" : {
+        "gini": 0.4795,
+        "margin_of_error": 0.0065
+    },
+    "NY" : {
+        "gini": 0.5138,
+        "margin_of_error": 0.0029
+    },
+    "NC" : {
+        "gini": 0.4776,
+        "margin_of_error": 0.0036
+    },
+    "ND" : {
+        "gini": 0.4664,
+        "margin_of_error": 0.012
+    },
+    "OH" : {
+        "gini": 0.4637,
+        "margin_of_error": 0.0034
+    },
+    "OK" : {
+        "gini": 0.4702,
+        "margin_of_error": 0.0045
+    },
+    "OR" : {
+        "gini": 0.4622,
+        "margin_of_error": 0.0046
+    },
+    "PA" : {
+        "gini": 0.4685,
+        "margin_of_error": 0.0025
+    },
+    "RI" : {
+        "gini": 0.4732,
+        "margin_of_error": 0.0094
+    },
+    "SC" : {
+        "gini": 0.4698,
+        "margin_of_error": 0.005
+    },
+    "SD" : {
+        "gini": 0.4436,
+        "margin_of_error": 0.0093
+    },
+    "TN" : {
+        "gini": 0.4789,
+        "margin_of_error": 0.0046
+    },
+    "TX" : {
+        "gini": 0.4823,
+        "margin_of_error": 0.0021
+    },
+    "UT" : {
+        "gini": 0.4252,
+        "margin_of_error": 0.0051
+    },
+    "VT" : {
+        "gini": 0.4452,
+        "margin_of_error": 0.0102
+    },
+    "VA" : {
+        "gini": 0.4681,
+        "margin_of_error": 0.003
+    },
+    "WA" : {
+        "gini": 0.4561,
+        "margin_of_error": 0.0038
+    },
+    "WV" : {
+        "gini": 0.4581,
+        "margin_of_error": 0.0059
+    },
+    "WI" : {
+        "gini": 0.441,
+        "margin_of_error": 0.0032
+    },
+    "WY" : {
+        "gini": 0.4374,
+        "margin_of_error": 0.0153
+    }
+}
+
+
+
+function tooltipHtml(n, d){ /* function to create html content string in tooltip div. */
+    return "<h4>"+n+"</h4><table>"+
+      "<tr><td>Gini</td><td>"+(d.gini)+"</td></tr>" +
+      "</table>";
+  }
+  
+  var sampleData ={}; /* Sample random data. */ 
+
+  ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
+  "ME", "NH", "VT", "NY", "NJ", "PA", "DE", "MD", "WV", "KY", "OH", 
+  "MI", "WY", "MT", "ID", "WA", "DC", "TX", "CA", "AZ", "NV", "UT", 
+  "CO", "NM", "OR", "ND", "SD", "NE", "IA", "MS", "IN", "IL", "MN", 
+  "WI", "MO", "AR", "OK", "KS", "LS", "VA"]
+    .forEach(function(d){ 
+      var gini = data[d]["gini"];
+
+      sampleData[d]={ 
+        gini:gini,
+        color:d3.interpolate("#ff0000", "#FFFF00")(gini)}; 
+    });
+
+  /* draw states on id #statesvg */ 
+  uStates.draw("#statesvg", sampleData, tooltipHtml);
+  
+  d3.select(self.frameElement).style("height", "600px"); 
+
+
+
+
+
