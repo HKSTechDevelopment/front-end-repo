@@ -2,18 +2,32 @@
 var gauges = [];
 
 
-var data = '[{"country" : "china"}, {"country" : "United States"}, {"country" : "Ecuador"}]';
+// var data = '[{"country" : "china"}, {"country" : "United States"}, {"country" : "Ecuador"}]';
 
  
-<script> type="text/javascript" src="ginivalue.json" </script>
+// <script> type="text/javascript" src="ginivalue.json" </script>
 
 
 var data = {
-	"china": 42.16,
-	"us": 41.06,
-	"ecuador": 47.29
-}
+    "china": { 
+        "gini": 42.16,
+        "year": 2012,
+        "fullname": "China"
+        },
 
+
+    "us": { 
+        "gini": 41.06,
+        "year": 2013,
+        "fullname": "United States"
+        },
+
+    "ecuador": { 
+        "gini": 47.29,
+        "year": 2013,
+        "fullname": "Ecuador"
+        }
+}
 function createGauge(name, label, min, max)
 {
 	var config = 
@@ -53,7 +67,7 @@ function updateGauges()
 
 function getValue(gauge)
 {
-	return data[gauge.config.name]
+	return data[gauge.config.name]["gini"]
 }
 
 function getRandomValue(gauge)

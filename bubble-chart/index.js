@@ -13,15 +13,16 @@ $(document).ready(function () {
     //circleColor: use @default
     data: {
       items: [
-        {text: "Java", count: "236"},
-        {text: ".Net", count: "382"},
-        {text: "Php", count: "170"},
-        {text: "Ruby", count: "123"},
-        {text: "D", count: "12"},
-        {text: "Python", count: "170"},
-        {text: "C/C++", count: "382"},
-        {text: "Pascal", count: "10"},
-        {text: "Something", count: "170"},
+      {text: "China", count: 10249},
+      {text: "United States", count: 5186},
+      {text: "India", count: 2035},
+      {text: "Russian Federation", count: 1789},
+      {text: "Japan", count: 1243},
+      {text: "Germany", count: 757},
+      {text: "Iran, Islamic Rep.", count: 617},
+      {text: "Korea, Rep.", count: 592},
+      {text: "Saudi Arabia", count: 541},
+      {text: "Brazil", count: 504},
       ],
       eval: function (item) {return item.count;},
       classed: function (item) {return item.text.split(" ").join("");}

@@ -1,19 +1,20 @@
-[
- {
-     "country": "China",
-     "gini": 42.16,
-     "year": 2012,
- }
+{
+    "china": { 
+        "gini": 42.16,
+        "year": 2012,
+        "fullname": "China"
+        },
 
- {
-     "country": "United States",
-     "gini": 41.06,
-     "year": 2013,
- }
 
- {
-     "country": "Ecuador",
-     "gini": 47.29,
-     "year": 2013,
- }
-]
+    "us": { 
+        "gini": 41.06,
+        "year": 2013,
+        "fullname": "United States"
+        },
+
+    "ecuador": { 
+        "gini": 47.29,
+        "year": 2013,
+        "fullname": "Ecuador"
+        }
+}
