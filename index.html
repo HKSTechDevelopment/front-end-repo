@@ -21,22 +21,21 @@
 </head>
 <body>
 <h4> Marine Protected Areas </h4>
-<svg id="fillgauge1" class="gauge" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg> 
+<svg id="marine" class="gauge" width="19%" height="200" onclick="gauge1.update(NewValue('marine'));"></svg>
 <p> The values are shown for 1990 and 2014 as % of territorial waters </p>
 <h4> Terrestial Protected Areas </h4>
-<svg id="fillgauge2" class="gauge" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg>
+<svg id="terrestial" class="gauge" width="19%" height="200" onclick="gauge2.update(NewValue('terrestial'));"></svg>
 <p> The values are shown for 1990 and 2014 as % of total land area </p>
 <h4> Access to electricity </h4>
-<svg id="fillgauge3" class="gauge" width="19%" height="200" onclick="gauge3.update(NewValue());"></svg>
+<svg id="electricity" class="gauge" width="19%" height="200" onclick="gauge3.update(NewValue('electricity'));"></svg>
 <p> The values are shown for 1990 and 2014 as % of population with access to electricity </p>
 <h4> Forest area </h4>
-<svg id="fillgauge4" class="gauge" width="19%" height="200" onclick="gauge4.update(NewValue());"></svg>
+<svg id="forest" class="gauge" width="19%" height="200" onclick="gauge4.update(NewValue('forest'));"></svg>
 <p> The values are shown for 1990 and 2014 and show the total forest area in sq. km </p>
 <h4> C02 emissions </h4>
-<svg id="fillgauge5" class="gauge"width="19%" height="200" onclick="gauge5.update(NewValue());"></svg>
+<svg id="CO2" class="gauge"width="19%" height="200" onclick="gauge5.update(NewValue('CO2'));"></svg>
 <p> The values are shown for 1990 and 2014 and show total emissions in kt </p>
 <script src="gauge.js" language="JavaScript"></script>
-<script src="data.js" language="JavaScript"></script>
 
 </body>
 </html>

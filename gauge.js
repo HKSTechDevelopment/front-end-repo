@@ -6,10 +6,7 @@ var data = {
     "CO2" : { "past": 9385792.843, "present": 35848592 , "current_state": "past"}
 }
 
-
-var gague1_current_state
-
-var gauge1 = loadLiquidFillGauge("fillgauge1", data.marine.past);
+var gauge1 = loadLiquidFillGauge("marine", data.marine.past);
 var config1 = liquidFillGaugeDefaultSettings();
 config1.circleColor = "#FF7777";
 config1.textColor = "#FF4444";
@@ -18,7 +15,8 @@ config1.waveColor = "#FFDDDD";
 config1.circleThickness = 0.2;
 config1.textVertPosition = 0.2;
 config1.waveAnimateTime = 1000;
-var gauge2= loadLiquidFillGauge("fillgauge2", data.terrestial.past, config1);
+
+var gauge2= loadLiquidFillGauge("terrestial", data.terrestial.past, config1);
 var config2 = liquidFillGaugeDefaultSettings();
 config2.circleColor = "#D4AB6A";
 config2.textColor = "#553300";
@@ -30,7 +28,8 @@ config2.textVertPosition = 0.8;
 config2.waveAnimateTime = 2000;
 config2.waveHeight = 0.3;
 config2.waveCount = 1;
-var gauge3 = loadLiquidFillGauge("fillgauge3", data.electricity.past, config2);
+
+var gauge3 = loadLiquidFillGauge("electricity", data.electricity.past, config2);
 var config3 = liquidFillGaugeDefaultSettings();
 config3.textVertPosition = 0.8;
 config3.waveAnimateTime = 5000;
@@ -39,7 +38,8 @@ config3.waveAnimate = false;
 config3.waveOffset = 0.25;
 config3.valueCountUp = false;
 config3.displayPercent = false;
-var gauge4 = loadLiquidFillGauge("fillgauge4", 41282694.8, config3);
+
+var gauge4 = loadLiquidFillGauge("forest", 41282694.8, config3);
 var config4 = liquidFillGaugeDefaultSettings();
 config4.circleThickness = 0.15;
 config4.circleColor = "#808015";
@@ -55,7 +55,8 @@ config4.waveHeightScaling = false;
 config4.waveOffset = 0.25;
 config4.textSize = 0.75;
 config4.waveCount = 3;
-var gauge5 = loadLiquidFillGauge("fillgauge5", 9385792.843, config4);
+
+var gauge5 = loadLiquidFillGauge("CO2", 9385792.843, config4);
 var config5 = liquidFillGaugeDefaultSettings();
 config5.circleThickness = 0.4;
 config5.circleColor = "#6DA398";
@@ -74,10 +75,12 @@ config5.maxValue = 150
 config5.displayPercent = false;
 
 
-function NewValue(gague_data){
-    if(Math.random() > .5){
-        return Math.round(Math.random()*100);
+function NewValue(gauge_name){
+    if(data[gauge_name]["current_state"] == "past"){
+        data[gauge_name]["current_state"] = "present"
+        return data[gauge_name]["present"];
     } else {
-        return (Math.random()*100).toFixed(1);
+        data[gauge_name]["current_state"] = "past"
+        return data[gauge_name]["past"];
     }
 }
