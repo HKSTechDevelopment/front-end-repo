@@ -7,5 +7,36 @@
 	<h1> Explore trends in economic development </h1>
 	<h2> Explore by region </h2>
 	<p> The primary source of data for our visuals is the <a href="http://data.worldbank.org/data-catalog/world-development-indicators">World Development Indicators</a></p>
+
+	<h2> Environmental World Development Indicators </h2>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="liquidFillGauge.js" language="JavaScript"></script>
+    <style>
+        .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+    </style>
+</head>
+<body>
+<h4> Marine Protected Areas </h4>
+<svg id="fillgauge1" class="gauge" width="19%" height="200" onclick="gauge1.update(NewValue());"></svg> 
+<p> The values are shown for 1990 and 2014 as % of territorial waters </p>
+<h4> Terrestial Protected Areas </h4>
+<svg id="fillgauge2" class="gauge" width="19%" height="200" onclick="gauge2.update(NewValue());"></svg>
+<p> The values are shown for 1990 and 2014 as % of total land area </p>
+<h4> Access to electricity </h4>
+<svg id="fillgauge3" class="gauge" width="19%" height="200" onclick="gauge3.update(NewValue());"></svg>
+<p> The values are shown for 1990 and 2014 as % of population with access to electricity </p>
+<h4> Forest area </h4>
+<svg id="fillgauge4" class="gauge" width="19%" height="200" onclick="gauge4.update(NewValue());"></svg>
+<p> The values are shown for 1990 and 2014 and show the total forest area in sq. km </p>
+<h4> C02 emissions </h4>
+<svg id="fillgauge5" class="gauge"width="19%" height="200" onclick="gauge5.update(NewValue());"></svg>
+<p> The values are shown for 1990 and 2014 and show total emissions in kt </p>
+<script src="gauge.js" language="JavaScript"></script>
+<script src="data.js" language="JavaScript"></script>
+
 </body>
 </html>
