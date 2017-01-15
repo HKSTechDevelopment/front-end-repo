@@ -25,9 +25,6 @@ $(document).ready(function () {
       {text: "Brazil", count: 504},
       {text: "Mexico", count: 489},
       {text: "Indonesia", count: 479},
-      {text: "Canada", count: 476},
-      {text: "South Africa", count: 471},
-      {text: "United Kingdom", count: 457},
       ],
       eval: function (item) {return item.count;},
       classed: function (item) {return item.text.split(" ").join("");}
