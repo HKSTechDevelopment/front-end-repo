@@ -23,6 +23,8 @@ $(document).ready(function () {
       {text: "Korea, Rep.", count: 592},
       {text: "Saudi Arabia", count: 541},
       {text: "Brazil", count: 504},
+      {text: "Mexico", count: 489},
+      {text: "Indonesia", count: 479},
       ],
       eval: function (item) {return item.count;},
       classed: function (item) {return item.text.split(" ").join("");}
