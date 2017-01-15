@@ -1,13 +1,6 @@
 
 var gauges = [];
 
-
-// var data = '[{"country" : "china"}, {"country" : "United States"}, {"country" : "Ecuador"}]';
-
- 
-// <script> type="text/javascript" src="ginivalue.json" </script>
-
-
 var data = {
     "china": { 
         "gini": 42.16,
