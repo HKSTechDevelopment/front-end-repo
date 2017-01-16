@@ -225,7 +225,7 @@ function tooltipHtml(n, d){ /* function to create html content string in tooltip
 
       sampleData[d]={ 
         gini:gini,
-        color:d3.interpolate("#ff0000", "#FFFF00")(gini)}; 
+        color:d3.interpolate("#ffe5e5", "#660000")((parseFloat(gini) - 0.4252)/(0.5354 - 0.4252))}; 
     });
 
   /* draw states on id #statesvg */ 
