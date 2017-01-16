@@ -1,4 +1,4 @@
-d3.json("US_state_gini.json", function(error, data) {
+d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/james-data/US_state_gini.json", function(error, data) {
 
   function tooltipHtml(n, d){ /* function to create html content string in tooltip div. */
     return "<h4>"+n+"</h4><table>"+
@@ -6,7 +6,7 @@ d3.json("US_state_gini.json", function(error, data) {
       "</table>";
   }
   
-  var sampleData ={}; /* Sample random data. */ 
+  var sampleData ={}; 
 
   ["HI", "AK", "FL", "SC", "GA", "AL", "NC", "TN", "RI", "CT", "MA",
   "ME", "NH", "VT", "NY", "NJ", "PA", "DE", "MD", "WV", "KY", "OH", 
