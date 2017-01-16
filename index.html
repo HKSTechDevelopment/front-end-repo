@@ -12,9 +12,15 @@
 	<!-- United States Gini -->
 	<style href="US_states_gini/usstates.css" rel="stylesheet" type="text/css"></style>
 
+	<!-- Gini Gauge -->
+
+
 	<!-- Water Chart -->
 	<link rel="stylesheet" type="text/css" href="water_chart/gauge.css">
 
+	<!-- Bubble Chart -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600,200italic,600italic&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bubble-chart/bubble-chart.css">
 	
 </head>	
 <body>
@@ -54,6 +60,9 @@
 		<p>Data source: U.S. Census Bureau, 2015 American Community Survey 1-Year Estimates </p>
 	</div>
 
+	<!-- Gini Gauge -->
+	<iframe id="gini_iframe" src="gini-gauge/index.html"></iframe>
+
 	<!-- Water Chart -->
 	<div class="chart">
 
@@ -80,6 +89,25 @@
 	    <script src="water_chart/liquidFillGauge.js" language="JavaScript"></script>
 	    <script src="water_chart/gauge.js" language="JavaScript"></script>
 	</div>
-	
+
+
+	<!-- Bubble Chart -->
+	<div class="chart">
+		<h1>Top 12 Carbon Emission Countries</h1>
+	  	<h2>in million of tons; based on 2013 data</h2>
+  	    <div class="bubbleChart"/>
+
+  	    <script src="https://phuonghuynh.github.io/js/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/d3/d3.min.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/d3-transform/src/d3-transform.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/cafej/src/extarray.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/cafej/src/misc.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/cafej/src/micro-observer.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/microplugin/src/microplugin.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/bubble-chart/src/bubble-chart.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/central-click/central-click.js"></script>
+		<script src="https://phuonghuynh.github.io/js/bower_components/bubble-chart/src/plugins/lines/lines.js"></script>
+        <script src="bubble-chart/index.js"></script>
+	</div>
 </body>
 </html>

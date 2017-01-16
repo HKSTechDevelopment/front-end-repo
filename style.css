@@ -1,3 +1,9 @@
 .chart h1,h2,h3 {
 	color: gray;
 }
+
+#gini_iframe {
+    border-width: 0;
+    width: 800px;
+    height: 200px;
+}

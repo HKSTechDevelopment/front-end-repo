@@ -5,20 +5,30 @@ var data = {
     "china": { 
         "gini": 42.16,
         "year": 2012,
-        "fullname": "China"
+        "fullname": "China-Haiyang"
         },
-
-
     "us": { 
         "gini": 41.06,
         "year": 2013,
-        "fullname": "United States"
+        "fullname": "US-James"
         },
 
     "ecuador": { 
         "gini": 47.29,
         "year": 2013,
-        "fullname": "Ecuador"
+        "fullname": "Ecuador-Dan"
+        },
+
+    "finland": { 
+        "gini": 27.1,
+        "year": 2012,
+        "fullname": "Finland-ideal"
+        },
+
+    "brazil": { 
+        "gini": 51.5,
+        "year": 2014,
+        "fullname": "Brazil-sad"
         }
 }
 function createGauge(name, label, min, max)
@@ -34,8 +44,8 @@ function createGauge(name, label, min, max)
 	}
 	
 	var range = config.max - config.min;
-	config.yellowZones = [{ from: config.min + range*0.75, to: config.min + range*0.9 }];
-	config.redZones = [{ from: config.min + range*0.9, to: config.max }];
+	config.yellowZones = [{ from: config.min + range*0.5, to: config.min + range*0.75 }];
+	config.redZones = [{ from: config.min + range*0.75, to: config.max }];
 	
 	gauges[name] = new Gauge(name + "GaugeContainer", config);
 	gauges[name].render();
@@ -43,10 +53,12 @@ function createGauge(name, label, min, max)
 
 function createGauges()
 {
-	createGauge("china", "China");
-	createGauge("us", "United States");
-	createGauge("ecuador", "Ecuador");
-	//createGauge("test", "Test", -50, 50 );
+	createGauge("china", "China-Haiyang");
+	createGauge("us", "US-James");
+	createGauge("ecuador", "Ecuador-Dan");
+	createGauge("finland", "Finland-ideal");
+	createGauge("brazil", "Brazil-sad");
+
 }
 
 function updateGauges()
