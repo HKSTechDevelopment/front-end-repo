@@ -1,0 +1,13 @@
+.tooltip{
+  position: absolute;	
+  text-align: center;	
+  width: 13%;	
+  height:10%;		
+  padding: 2vw;	
+  font: 1.2vw sans-serif;		
+  border: 0px;					
+  border-radius: 8px;
+  color:black;
+  box-shadow: -3px 3px 15px #888888;
+  opacity:0;	
+}

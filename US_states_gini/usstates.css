@@ -1,0 +1,46 @@
+.usstates .state{
+	fill: none;
+	stroke: #a9a9a9;
+	stroke-width: 1;
+}
+.usstates .state:hover{
+	fill-opacity:0.5;
+}
+.usstates#tooltip {   
+	position: absolute;           
+	text-align: center;
+	padding: 20px;             
+	margin: 10px;
+	font: 12px sans-serif;        
+	background: lightsteelblue;   
+	border: 1px;      
+	border-radius: 2px;           
+	pointer-events: none;         
+}
+.usstates#tooltip h4{
+	margin:0;
+	font-size:14px;
+}
+.usstates#tooltip{
+	background:rgba(0,0,0,0.9);
+	border:1px solid grey;
+	border-radius:5px;
+	font-size:12px;
+	width:auto;
+	padding:4px;
+	color:white;
+	opacity:0;
+}
+.usstates#tooltip table{
+	table-layout:fixed;
+}
+.usstates#tooltip tr td{
+	padding:0;
+	margin:0;
+}
+.usstates#tooltip tr td:nth-child(1){
+	width:50px;
+}
+.usstates#tooltip tr td:nth-child(2){
+	text-align:center;
+}

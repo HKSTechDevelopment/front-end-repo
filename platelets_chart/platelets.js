@@ -1,4 +1,4 @@
-  d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/Daniela_branch/platelets_chart/data.json", function(error, data) {
+  d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/master/platelets_chart/data.json", function(error, data) {
 
 
 
