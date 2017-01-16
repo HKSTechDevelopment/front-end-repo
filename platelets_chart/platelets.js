@@ -1,7 +1,11 @@
-var data = [{"threatened":"Bird species","number_of_species": 4393},
-            {"threatened":"Fish species","number_of_species": 8124},
-            {"threatened":"Mammal species","number_of_species": 3406},
-            {"threatened":"Plant species","number_of_species": 15056}];
+  d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/Daniela_branch/platelets_chart/data.json", function(error, data) {
+
+
+
+// var data = [{"threatened":"Bird species","number_of_species": 4393},
+//             {"threatened":"Fish species","number_of_species": 8124},
+//             {"threatened":"Mammal species","number_of_species": 3406},
+//             {"threatened":"Plant species","number_of_species": 15056}];
 var margin = {top:40,left:40,right:40,bottom:40};
 width = 300;
 height = 300;
@@ -52,4 +56,6 @@ var g = svg.selectAll(".arc")
 		g.append("path")
 		.attr("d",arc)
 		.style("fill",function(d){return color(d.data.threatened);})
-		 .attr("d", arc);;
+		 .attr("d", arc);; 
+
+    });
