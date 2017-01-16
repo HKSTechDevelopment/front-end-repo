@@ -21,7 +21,7 @@ var arcOver = d3.svg.arc()
 
 var a=width/2 - 20;
 var b=height/2 - 90;
-var svg = d3.select("#svgContent").append("svg")
+var svg = d3.select("#plateletdiv").append("svg")
           .attr("viewBox", "0 0 " + width + " " + height/2)
     .attr("preserveAspectRatio", "xMidYMid meet")
           .append("g")
