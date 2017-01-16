@@ -3,30 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>No. Of threatened species</title>
-	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script> 
-    <link rel="stylesheet">
-    <style>
-	  .tooltip{
-position: absolute;	
-  text-align: center;	
-  width: 13%;	
-  height:10%;		
-  padding: 2vw;	
-  font: 1.2vw sans-serif;		
-  border: 0px;					
-  border-radius: 8px;
-  color:black;
-  box-shadow: -3px 3px 15px #888888;
-  opacity:0;	
-
-}
-</style>
-<h1> Number of threatened species in the world </h1>
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<div id = "svgContent"></div>
-
-<script src="platelets.js" language="JavaScript"></script>
-<h5>Source: http://databank.worldbank.org/data/reports.aspx?source=world-development-indicators</h5>
-</body>
+    <link rel="stylesheet" type="text/css" href="platelets.css">
+  </head>
+  <body>
+    <h1> Number of threatened species in the world </h1>
+    <script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js" language="JavaScript"></script> 
+    <script src="platelets.js" language="JavaScript"></script>
+    <div id = "plateletdiv"></div>
+    <h5>Source: http://databank.worldbank.org/data/reports.aspx?source=world-development-indicators</h5>
+  </body>
 </html>

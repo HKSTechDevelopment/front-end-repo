@@ -1,4 +1,4 @@
-  d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/Daniela_branch/platelets_chart/data.json", function(error, data) {
+  d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/master/platelets_chart/data.json", function(error, data) {
 
 
 
@@ -21,7 +21,7 @@ var arcOver = d3.svg.arc()
 
 var a=width/2 - 20;
 var b=height/2 - 90;
-var svg = d3.select("#svgContent").append("svg")
+var svg = d3.select("#plateletdiv").append("svg")
           .attr("viewBox", "0 0 " + width + " " + height/2)
     .attr("preserveAspectRatio", "xMidYMid meet")
           .append("g")
