@@ -3,27 +3,51 @@
 <head>
 	<meta charset="utf-8">
 	<title> Trends in economic development </title>
+
+	<!-- World Map -->
+	<link rel="stylesheet" type="text/css" href="world-map/worldmap.css">
+
+
+
+	<!-- United States Gini -->
 	<style href="US_states_gini/usstates.css" rel="stylesheet" type="text/css"></style>
-	<script src="https://d3js.org/d3.v3.min.js"></script>
+	
 </head>	
 <body>
 	<h1> Explore trends in economic development </h1>
 
 
 
+	<!-- World Map -->
+	  <div id="worldmaptext"> 
+    <h1> Trends in Economic Development </h1>
+    <h2> Explore by Country </h2>
+    <h3>
+      Note 1: Data based on 2015 GDP)
+      Note 2: Libya GDP taken from 2011, pre-civil war 
+    </h3>
+    </div>
+    <div id="tooltip-container" class="worldmap"></div>
+    <div id="canvas-svg" class="worldmap"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="world-map/worldmap.js"></script>
 
-	<!-- US GINI COEFFICIENT MAP -->
+	<!-- United States Gini -->
     <h2 id='state'> United States: State by state <a href="https://en.wikipedia.org/wiki/Gini_coefficient">Gini coefficient</a></h2> 
     <h3> A darker shade of red represents a relatively higher level of income inequality</h3>
     <p>Roll over state to view Gini coefficient.</p>
 	<div id="tooltip"></div><!-- div to hold tooltip. -->
-	
 	<svg width="960" height="600" id="statesvg" class="usstates"></svg> <!-- svg to hold the map. -->
-	
+	<script src="https://d3js.org/d3.v3.min.js"></script>
 	<script src="US_states_gini/uStates.js"></script> <!-- creates uStates. -->
 	<script src="US_states_gini/us-gini.js"></script>
 	<p>Chart source: <a href=https://bl.ocks.org/NPashaP>Pasha's</a> <a href = "https://gist.github.com/NPashaP/a74faf20b492ad377312">Blocks</a></p>
 	<p>Data source: U.S. Census Bureau, 2015 American Community Survey 1-Year Estimates </p>
+
+
+
 
 	
 </body>
