@@ -2,14 +2,18 @@
 
 <meta charset="utf-8">
 
+<title>GDP by Country</title>
 
 <h1> Trends in Economic Development 
 </h1>
 
-<h2> Explore by Country (Data based on 2015 GDP)
+<h2> Explore by Country 
 </h2>
 
-<h3>Note: Libya GDP taken from 2011, pre-civil war </h3>
+<h3>
+Note 1: Data based on 2015 GDP)
+Note 2: Libya GDP taken from 2011, pre-civil war 
+</h3>
 
 
 <style>
@@ -63,12 +67,12 @@ body {
 <div id="canvas-svg"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <script>
 
-d3.csv("population.csv", function(err, data) {
+d3.csv("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/master/world-map/gdp2015.csv", function(err, data) {
 
   var config = {"data0":"Country (or dependent territory)","data1":"Population",
               "label0":"label 0","label1":"label 1","color0":"#99ccff","color1":"#0050A1",
@@ -269,3 +273,5 @@ d3.csv("population.csv", function(err, data) {
 });
 
 </script>
+
+
