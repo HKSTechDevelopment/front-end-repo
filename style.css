@@ -1,5 +1,40 @@
-.chart h1,h2,h3 {
-	color: green;
+/* set general style parameters */
+
+html {
+  background-color: #808080;
+}
+
+body {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: #FEFEF5;
+  padding: 20px 20px 20px 20px;
+  border: 5px;
+  border-style: solid;
+  border-color: #1C1C1C;
+  font-family: verdana;
+}
+
+p {
+	color: #312D37;
+	font-family: verdana;
+}
+
+/* set paramters for charts */
+
+
+.chart h1, h2, h3 {
+	color: #3F3F3F;
+	font-family: verdana;
+	font-size: 200%;
+
+}
+
+h1.title {
+    color: #1C1C1C;
+    font-size: 40pt;
+    text-align: center;
+    font-family: verdana;
 }
 
 #gini_iframe {
@@ -13,3 +48,12 @@
     height: 750px;
     border-width: 0;
 }
+
+/* center bubble chart */
+
+div.chart iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
