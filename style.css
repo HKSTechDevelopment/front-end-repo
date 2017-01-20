@@ -7,3 +7,9 @@
     width: 800px;
     height: 200px;
 }
+
+#bubble_iframe {
+    width: 700px;
+    height: 750px;
+    border-width: 0;
+}
