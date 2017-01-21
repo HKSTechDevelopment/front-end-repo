@@ -1,3 +1,5 @@
-Hello, this is #TeamDevelopment
+Hello, this is #TeamDevelopment, proudly hailing from China, Ecuador and the United States. 
 
-Here's the link to our MVP: https://hkstechdevelopment.github.io/front-end-repo/
+Our project focues on international development. Enjoy! 
+
+Here's the link: https://hkstechdevelopment.github.io/front-end-repo/
