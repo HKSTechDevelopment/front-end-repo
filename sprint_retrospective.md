@@ -13,6 +13,12 @@ ________________________________________________________________________________
 
 James:
 
+Start doing: Ensure we do all local development work in a branch before pushing and merging with master.
+
+Stop doing: Choosing tasks that require extensive troubleshooting.
+
+Continue: Coordinating on formatting and ensuring that all parts of the project are compatible.
+
 
 
 ______________________________________________________________________________________________________________________________
