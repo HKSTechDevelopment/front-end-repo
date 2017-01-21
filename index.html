@@ -29,6 +29,7 @@
 <body>
 	<h1 class = "title"> Explore trends in economic development </h1>
 
+	<script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
 
 
 	<!-- World Map -->
@@ -40,7 +41,6 @@
 	    </div>
 	    <div id="tooltip-container" class="worldmap"></div>
 	    <div id="canvas-svg" class="worldmap"></div>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	    <script type="text/javascript" src="world-map/worldmap.js"></script>
@@ -55,7 +55,6 @@
 	    <p>Roll over state to view Gini coefficient.</p>
 		<div id="tooltip"></div><!-- div to hold tooltip. -->
 		<svg width="960" height="600" id="statesvg" class="usstates"></svg> <!-- svg to hold the map. -->
-		<script src="https://d3js.org/d3.v3.min.js"></script>
 		<script src="US_states_gini/uStates.js"></script> <!-- creates uStates. -->
 		<script src="US_states_gini/us-gini.js"></script>
 		<p>Chart source: <a href=https://bl.ocks.org/NPashaP>Pasha's</a> <a href = "https://gist.github.com/NPashaP/a74faf20b492ad377312">Blocks</a></p>
@@ -91,7 +90,6 @@
 	    <!--<h4> C02 emissions </h4>
 	    <svg id="CO2" class="gauge"width="19%" height="200" onclick="gauge5.update(NewValue('CO2'));"></svg>
 	    <p> The values are shown for 1990 and 2014 and show total emissions in kt </p>-->
-	    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
 	    <script src="water_chart/liquidFillGauge.js" language="JavaScript"></script>
 	    <script src="water_chart/gauge.js" language="JavaScript"></script>
 	    <p>Chart source: <a href = "http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6">Blocks</a></p>
@@ -102,7 +100,6 @@
 	<div class="chart">
 		    <h1> Number of threatened species in the world </h1>
 		    <p> Hover over the chart to see the number of threatened species per group.</p>
-    		<script src="https://d3js.org/d3.v3.min.js" language="JavaScript"></script>
    	 		<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js" language="JavaScript"></script> 
     		<script src="platelets_chart/platelets.js" language="JavaScript"></script>
     		<div id = "plateletdiv"></div>
