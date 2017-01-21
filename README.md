@@ -1,4 +1,4 @@
-Hello, this is #TeamDevelopment, proudly hailing from China, Ecuador and the United States. 
+#Hello, this is #TeamDevelopment, proudly hailing from China, Ecuador and the United States. 
 
 Our project focues on international development. Enjoy! 
 
