@@ -57,3 +57,30 @@ div.chart iframe {
 	margin-right: auto;
 }
 
+.quote{
+  background: #D3D3D3;
+  border-left: 10px solid #6E86D6;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: gray;
+
+}
+
+#mainQuote {
+    color: gray;
+    font-weight: bold;
+
+}
+
+#mainQuote:before {
+  color: #6E86D6;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#mainQuote p {
+  display: inline;  
+}
