@@ -80,7 +80,6 @@
 		<p> Click on the water chart to see the changes between the years specified.</p>
 	    <h4> Marine Protected Areas </h4>
 	    <svg id="marine" class="gauge" width="19%" height="200" onclick="gauge1.update(NewValue('marine'));"></svg>
-
 	    <p> The values are shown for 1990 and 2014 as % of territorial waters </p>
 	    <h4> Terrestial Protected Areas </h4>
 	    <svg id="terrestial" class="gauge" width="19%" height="200" onclick="gauge2.update(NewValue('terrestial'));"></svg>
@@ -96,6 +95,7 @@
 	    <p> The values are shown for 1990 and 2014 and show total emissions in kt </p>-->
 	    <script src="water_chart/liquidFillGauge.js" language="JavaScript"></script>
 	    <script src="water_chart/gauge.js" language="JavaScript"></script>
+	    <p>The charts show progress in the environmental indicators presented. However, we must continue to prioritize the protection of ecosystems to ensure a sustainable future.</p>
 	    <p>Chart source: <a href = "http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6">Blocks</a></p>
     	<p>Data Source: World Bank, World Development Indicators, 2016</p>
 	</div>
@@ -104,6 +104,7 @@
 	<div class="chart">
 		    <h1> Number of threatened species in the world </h1>
 		    <p> Hover over the chart to see the number of threatened species per group.</p>
+		    <p id="mainQuote" class="quote">Humans are behind the current rate of species extinction, which is at least 100–1,000 times higher than nature intended. <br/><br/> - World Wildlife Fund  </p>
    	 		<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js" language="JavaScript"></script> 
     		<script src="platelets_chart/platelets.js" language="JavaScript"></script>
     		<div id = "plateletdiv"></div>

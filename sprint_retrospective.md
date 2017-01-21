@@ -18,4 +18,14 @@ James:
 ______________________________________________________________________________________________________________________________
 
 
-Dan: 
+Dani:
+
+Start doing 
+Figuring out how to fix html errors. Learning javascript
+
+
+Stop doing
+Stop choosing charts and graphics that require changing the javascript code
+
+Continue doing 
+Continue finding data that is relevant to the project 
