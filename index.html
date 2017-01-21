@@ -35,7 +35,7 @@
 	<!-- World Map -->
 	<div class="chart">
 		<div id="worldmaptext"> 
-	    <h2> Explore by Country </h2>
+	    <h2> Explore GDP by Country </h2>
         <p id="mainQuote" class="quote">In many cases, GDP statistics seem to suggest that the economy is doing far better than most citizens' own perceptions. <br/><br/> - Joseph Stiglitz (Nobel Prize laureate 2001)  </p>
 	    <p>Roll over country to view GDP.</p>
 	    </div>
@@ -52,13 +52,14 @@
 
 	<!-- United States Gini -->
 	<div class="chart">
-	    <h2 id='state'> United States: State by state <a href="https://en.wikipedia.org/wiki/Gini_coefficient">Gini coefficient</a></h2> 
-	    <h4> A darker shade of red represents a relatively higher level of income inequality</h4>
-	    <p>Roll over state to view Gini coefficient.</p>
+	    <h2 id='state'> United States: State by state Gini coefficient</h2>
+	    <p id="mainQuote" class="quote"> The gap between the very rich and everyone else in America is wider today than at any time since the 1920s. <br/><br/> - <a href="https://twitter.com/BernieSanders/status/606469692899926017">Bernie Sanders</a> (United States Senator and presidential candidate)  </p> 
+	    <p>Roll over state to view Gini coefficient. A darker shade of red represents a relatively higher level of income inequality.</p>
 		<div id="tooltip"></div><!-- div to hold tooltip. -->
 		<svg width="960" height="600" id="statesvg" class="usstates"></svg> <!-- svg to hold the map. -->
 		<script src="US_states_gini/uStates.js"></script> <!-- creates uStates. -->
 		<script src="US_states_gini/us-gini.js"></script>
+		<p> The <a href="https://en.wikipedia.org/wiki/Gini_coefficient">Gini coefficient</a> is a measure of income inequality, with 0 representing total income equality and 1 representing total income inequality. Income and wealth inequality have assumed a prominent place in American politics in recent years, especially since the 2008 financial crisis. Bernie Sanders made income inequality the center of his unsuccessful campaign for the 2016 Democratic Party nomination for president. Meanwhile, the idea that working class Americans have been excluded from the benefits of globalization was a major theme in Republican candidate Donald Trump's campaign rhetoric. This chart highlights state by state differences in income inequality. </p>
 		<p>Chart source: <a href=https://bl.ocks.org/NPashaP>Pasha's</a> <a href = "https://gist.github.com/NPashaP/a74faf20b492ad377312">Blocks</a></p>
 		<p>Data source: U.S. Census Bureau, 2015 American Community Survey 1-Year Estimates </p>
 	</div>
