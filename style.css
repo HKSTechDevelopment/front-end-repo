@@ -58,8 +58,7 @@ div.chart iframe {
 }
 
 .quote{
-  background: #D3D3D3;
-  border-left: 10px solid #6E86D6;
+  border-left: 5px solid #6E86D6;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -68,7 +67,7 @@ div.chart iframe {
 }
 
 #mainQuote {
-    color: gray;
+    color: #6E86D6;
     font-weight: bold;
 
 }
@@ -76,7 +75,7 @@ div.chart iframe {
 #mainQuote:before {
   color: #6E86D6;
   content: open-quote;
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
