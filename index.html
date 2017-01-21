@@ -35,7 +35,7 @@
 	<!-- World Map -->
 	<div class="chart">
 		<div id="worldmaptext"> 
-	    <h2> Explore by Country </h2>
+	    <h2> Explore GDP by Country </h2>
         <p id="mainQuote" class="quote">In many cases, GDP statistics seem to suggest that the economy is doing far better than most citizens' own perceptions. <br/><br/> - Joseph Stiglitz (Nobel Prize laureate 2001)  </p>
 	    <p>Roll over country to view GDP.</p>
 	    </div>
@@ -52,13 +52,14 @@
 
 	<!-- United States Gini -->
 	<div class="chart">
-	    <h2 id='state'> United States: State by state <a href="https://en.wikipedia.org/wiki/Gini_coefficient">Gini coefficient</a></h2> 
-	    <h4> A darker shade of red represents a relatively higher level of income inequality</h4>
-	    <p>Roll over state to view Gini coefficient.</p>
+	    <h2 id='state'> United States: State by state Gini coefficient</h2>
+	    <p id="mainQuote" class="quote"> The gap between the very rich and everyone else in America is wider today than at any time since the 1920s. <br/><br/> - <a href="https://twitter.com/BernieSanders/status/606469692899926017">Bernie Sanders</a> (United States Senator and presidential candidate)  </p> 
+	    <p>Roll over state to view Gini coefficient. A darker shade of red represents a relatively higher level of income inequality.</p>
 		<div id="tooltip"></div><!-- div to hold tooltip. -->
 		<svg width="960" height="600" id="statesvg" class="usstates"></svg> <!-- svg to hold the map. -->
 		<script src="US_states_gini/uStates.js"></script> <!-- creates uStates. -->
 		<script src="US_states_gini/us-gini.js"></script>
+		<p> The <a href="https://en.wikipedia.org/wiki/Gini_coefficient">Gini coefficient</a> is a measure of income inequality, with 0 representing total income equality and 1 representing total income inequality. Income and wealth inequality have assumed a prominent place in American politics in recent years, especially since the 2008 financial crisis. Bernie Sanders made income inequality the center of his unsuccessful campaign for the 2016 Democratic Party nomination for president. Meanwhile, the idea that working class Americans have been excluded from the benefits of globalization was a major theme in Republican candidate Donald Trump's campaign rhetoric. This chart highlights state by state differences in income inequality. </p>
 		<p>Chart source: <a href=https://bl.ocks.org/NPashaP>Pasha's</a> <a href = "https://gist.github.com/NPashaP/a74faf20b492ad377312">Blocks</a></p>
 		<p>Data source: U.S. Census Bureau, 2015 American Community Survey 1-Year Estimates </p>
 	</div>
@@ -80,7 +81,6 @@
 		<p> Click on the water chart to see the changes between the years specified.</p>
 	    <h4> Marine Protected Areas </h4>
 	    <svg id="marine" class="gauge" width="19%" height="200" onclick="gauge1.update(NewValue('marine'));"></svg>
-
 	    <p> The values are shown for 1990 and 2014 as % of territorial waters </p>
 	    <h4> Terrestial Protected Areas </h4>
 	    <svg id="terrestial" class="gauge" width="19%" height="200" onclick="gauge2.update(NewValue('terrestial'));"></svg>
@@ -96,6 +96,7 @@
 	    <p> The values are shown for 1990 and 2014 and show total emissions in kt </p>-->
 	    <script src="water_chart/liquidFillGauge.js" language="JavaScript"></script>
 	    <script src="water_chart/gauge.js" language="JavaScript"></script>
+	    <p>The charts show progress in the environmental indicators presented. However, we must continue to prioritize the protection of ecosystems to ensure a sustainable future.</p>
 	    <p>Chart source: <a href = "http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6">Blocks</a></p>
     	<p>Data Source: World Bank, World Development Indicators, 2016</p>
 	</div>
@@ -104,6 +105,7 @@
 	<div class="chart">
 		    <h1> Number of threatened species in the world </h1>
 		    <p> Hover over the chart to see the number of threatened species per group.</p>
+		    <p id="mainQuote" class="quote">Humans are behind the current rate of species extinction, which is at least 100–1,000 times higher than nature intended. <br/><br/> - World Wildlife Fund  </p>
    	 		<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js" language="JavaScript"></script> 
     		<script src="platelets_chart/platelets.js" language="JavaScript"></script>
     		<div id = "plateletdiv"></div>
