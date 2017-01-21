@@ -1,4 +1,4 @@
-d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/james-data/US_state_gini.json", function(error, data) {
+d3.json("https://raw.githubusercontent.com/HKSTechDevelopment/back-end-repo/master/US_state_gini.json", function(error, data) {
 
   function tooltipHtml(n, d){ /* function to create html content string in tooltip div. */
     return "<h4>"+n+"</h4><table>"+
